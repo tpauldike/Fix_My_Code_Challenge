@@ -17,7 +17,7 @@ This is what this segment of the original looked liked:
              tmp_result.append(str(i)) 
      print(" ".join(tmp_result))
  ```
- Well, you may compared my code and this to see what I figured out was the problem
+ Well, you may compare my code to what is displayed here, to see what I figured out was the problem
 
 ### 1. [Print Square](./1-print_square.js)
 This `javascript` program is supposed to print a square with the character `#` whose size is the number passed to it on the command line (as an argument) when running it, but it had some bug in this particular line of code:
@@ -25,4 +25,4 @@ This `javascript` program is supposed to print a square with the character `#` w
 size = parseInt(process.argv[2], 16)
 ```
 The above line of code made the program to print a square of size 15 rather than 10, when 10 was passed as the argument.
-Compare with my codes to see what I changed; if you know what hexadecimals are, read a little about `parseInt` in `javascript` to understand what really happened there.
+Compare this to what I have in my code to see what I changed; if you know what hexadecimals are, read a little about `parseInt` in `javascript` to understand what really happened there.
