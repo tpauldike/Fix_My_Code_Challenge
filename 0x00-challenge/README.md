@@ -27,7 +27,7 @@ size = parseInt(process.argv[2], 16)
 The above line of code made the program to print a square of size 15 rather than 10, when 10 was passed as the argument.
 Compare this to what I have in my code to see what I changed; if you know what hexadecimals are, read a little about `parseInt` in `javascript` to understand what really happened there.
 
-### Real Square
-This was just me playing with [1-print_square](./1-print_square.js) to have the square really appear like a square.
-I used `console.error` instead of `process.stderr.write` and `console.log` instead of `process.stdout.write`.
+### *. [Real Square](./real_square.js)
+This was just me playing with [1-print_square.js](./1-print_square.js) to have the square really appear like a square.
+I used `console.error()` instead of `process.stderr.write()` and `console.log()` instead of `process.stdout.write()`.
 The result when the program is ran, made the name *print square* to make more sense.
