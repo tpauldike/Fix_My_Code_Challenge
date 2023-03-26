@@ -76,3 +76,5 @@ But the lines of code above do not satisfy that condition, I had to fix the bug.
 This was just me playing with [1-print_square.js](./1-print_square.js) to have the square really appear like a square.
 I used `console.error()` instead of `process.stderr.write()` and `console.log()` instead of `process.stdout.write()`.
 The result when the program is ran, made the name *print square* to make more sense.
+
+#### AUTHOR: [Topman Paul-Dike](https://www.github.com/tpauldike)
