@@ -33,7 +33,7 @@ Compare this to what I have in my code to see what I changed; if you know what h
 ## Advanced Tasks
 
 ### 2. [Sort](./2-sort.rb)
-Here, I was required to fix the problem in this `ruby` script.
+Here, I was required to fix the problem in the `ruby` script.
 The script is suppose to sort in an ascending order all integer values passed to it as arguments, on the command line, ignoring non-integer values (string, character, float). Well, I installed `ruby` on my Linux system and added the shebang `#!/usr/bin/env ruby` on line 1, to be able to test the code on my system.
 It turned out to be that the bug was in this line of code:
 ```ruby
@@ -51,7 +51,7 @@ And that was the bug I had to fix
 ### 4. [Doubly linked list](./4-delete_dnodeint/)
 The first thing I did here was to put all the header files in the header file [lists.h](./4-delete_dnodeint/lists.h), so that I only had `#include "lists.h"` in other files. I just like it that way.
 
-The bug here was in the file [delete_dnodeint.c](./4-delete_dnodeint/delete_dnodeint.c).
+The bug here was in the file [delete_dnodeint.c](./4-delete_dnodeint/delete_dnodeint_at_index.c).
 It had to do with this lines of code:
 ```c
 else
@@ -65,8 +65,8 @@ else
 ```
 
 If the index of the node to be deleted is not 0, these 3 things are supposed to happen:
-1. The `next pointer` of the node that is before the target node should to point the node that is after the target node
-2. The node of target should be freed or deleted
+1. The `next pointer` of the node that is before the target node should point the node that is after the target node
+2. The target node should be freed or deleted
 3. The `prev pointer` of the node that takes the place of the deleted node should point to the node that was before the deleted node.
 
 This sequence of actions will make the node that was before the deleted node to be linked to the node that was after the deleted node.
