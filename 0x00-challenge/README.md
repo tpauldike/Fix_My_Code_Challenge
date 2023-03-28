@@ -40,7 +40,7 @@ It turned out to be that the bug was in this line of code:
 result.insert(i - 1, i_arg)
 ```
 
-The knowledge of `ruby scripts`, `regular expression` and (probably) `binary sort` is what you need to understand this task.
+The knowledge of `ruby scripts`, `regular expression` and (probably) `bubble sort algorithm` is what you need to understand this task.
 
 ### 3. [User password](./3-user.py)
 The bug in this file really had to do with the title of the task. A basic knowledge of `python` object oriented programming is actually needed for one to understand this task.
