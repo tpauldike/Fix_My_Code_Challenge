@@ -72,6 +72,7 @@ If the index of the node to be deleted is not 0, these 3 things are supposed to 
 This sequence of actions will make the node that was before the deleted node to be linked to the node that was after the deleted node.
 But the lines of code above do not satisfy that condition, I had to fix the bug.
 
+## Extra Task
 ### *. [Real Square](./real_square.js)
 This was just me playing with [1-print_square.js](./1-print_square.js) to have the square really appear like a square.
 I used `console.error()` instead of `process.stderr.write()` and `console.log()` instead of `process.stdout.write()`.
